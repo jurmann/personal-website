@@ -1,26 +1,66 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import GitHub from './github-logo.png';
+import LinkedIn from './linkedin-logo.png';
+import Email from './email.png'
 
 class App extends Component {
   render() {
     return (
-        <div>
-      <div className="App">
+        <div className='App'
+        style={{
+            height: '100vh',
+            width: '100vw',
+            position: 'absolute',
+            overflow: 'hidden',
+        }}>
+        <div className="background-photo" />
+        <div className="App">
         <header className="App-header">
           <h1 className="App-title">Joe Urmann</h1>
         </header>
         </div>
-        <p className="right-text"><a href="https://www.linkedin.com/in/joseph-urmann">LinkedIn</a></p>
-        <p className="right-text"><a href="https://github.com/jurmann">Github</a></p>
-        <ul>
-        <li>
-        <a href="www.google.com">Google</a>
-        </li>
-        </ul>
+        <div style={{
+            padding: 5,
+        }}>
+        <a title={'GitHub'} href="https://github.com/jurmann">
+            <img
+            src={GitHub}
+            alt={'GitHub'}
+            height={30}
+            width={30}
+            />
+        </a>
+        </div>
+        <div style={{
+            padding: 5
+        }}>
+        <a title={'LinkedIn'} href="https://www.linkedin.com/in/joseph-urmann">
+            <img
+            src={LinkedIn}
+            alt={'LinkedIn'}
+            height={30}
+            width={35}
+            />
+        </a>
+        </div>
+        <div style={{
+            padding: 5
+        }}>
+        <a title={'Email'} href="mailto:urmannj@gmail.com">
+            <img
+            src={Email}
+            alt={'Email'}
+            height={30}
+            width={30}
+            />
+        </a>
+        </div>
       </div>
     );
   }
 }
 
 export default App;
+
