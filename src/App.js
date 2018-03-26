@@ -17,13 +17,13 @@ class App extends Component {
         }}>
         <div className="background-photo" />
         <div className="App">
-        <header className="App-header">
+        <header>
           <h1 className="App-title">Joe Urmann</h1>
         </header>
         </div>
-        <div style={{
-            padding: 5,
-        }}>
+        <div className="images">
+
+        <div className="inline">
         <a title={'GitHub'} href="https://github.com/jurmann">
             <img
             src={GitHub}
@@ -33,9 +33,7 @@ class App extends Component {
             />
         </a>
         </div>
-        <div style={{
-            padding: 5
-        }}>
+        <div className="inline">
         <a title={'LinkedIn'} href="https://www.linkedin.com/in/joseph-urmann">
             <img
             src={LinkedIn}
@@ -45,9 +43,7 @@ class App extends Component {
             />
         </a>
         </div>
-        <div style={{
-            padding: 5
-        }}>
+        <div className="inline">
         <a title={'Email'} href="mailto:urmannj@gmail.com">
             <img
             src={Email}
@@ -56,6 +52,7 @@ class App extends Component {
             width={30}
             />
         </a>
+        </div>
         </div>
       </div>
     );
