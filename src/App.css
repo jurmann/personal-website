@@ -54,7 +54,7 @@
 }
 
 .background-photo {
-    background: url('boundarywaters.jpg') 50% 40% no-repeat; /* 50% 50% centers image in div */
+    background: url('../src/boundarywaters.jpg') 50% 40% no-repeat; /* 50% 50% centers image in div */
     background-size: cover;
     height: 100%;
     width: 100%;
