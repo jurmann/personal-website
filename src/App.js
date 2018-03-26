@@ -24,7 +24,7 @@ class App extends Component {
         <div className="images">
 
         <div className="inline">
-        <a title={'GitHub'} href="https://github.com/jurmann">
+        <a title={'GitHub'} href="https://github.com/jurmann" target="_blank">
             <img
             src={GitHub}
             alt={'GitHub'}
@@ -34,7 +34,7 @@ class App extends Component {
         </a>
         </div>
         <div className="inline">
-        <a title={'LinkedIn'} href="https://www.linkedin.com/in/joseph-urmann">
+        <a title={'LinkedIn'} href="https://www.linkedin.com/in/joseph-urmann" target="_blank">
             <img
             src={LinkedIn}
             alt={'LinkedIn'}
