@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import GitHub from './github-logo.png';
-import LinkedIn from './linkedin-logo.png';
-import Email from './email.png'
+import GitHub from './assets/github-logo.png';
+import LinkedIn from './assets/linkedin-logo.png';
+import Email from './assets/email.png'
 
 class App extends Component {
   render() {
@@ -53,6 +52,9 @@ class App extends Component {
             />
         </a>
         </div>
+        </div>
+        <div className="photo-credit">
+            <p>Photo taken in the <a href="https://en.wikipedia.org/wiki/Boundary_Waters_Canoe_Area_Wilderness" target="_blank">BWCA</a></p>
         </div>
       </div>
     );
