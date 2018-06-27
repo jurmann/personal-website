@@ -23,7 +23,7 @@ class App extends Component {
         <div className="images">
 
         <div className="inline">
-        <a title={'GitHub'} href="https://github.com/jurmann" target="_blank">
+        <a title={'GitHub'} href="https://github.com/jurmann" target="_blank" rel="noopener noreferrer">
             <img
             src={GitHub}
             alt={'GitHub'}
@@ -33,7 +33,7 @@ class App extends Component {
         </a>
         </div>
         <div className="inline">
-        <a title={'LinkedIn'} href="https://www.linkedin.com/in/joseph-urmann" target="_blank">
+        <a title={'LinkedIn'} href="https://www.linkedin.com/in/joseph-urmann" target="_blank" rel="noopener noreferrer">
             <img
             src={LinkedIn}
             alt={'LinkedIn'}
@@ -54,7 +54,7 @@ class App extends Component {
         </div>
         </div>
         <div className="photo-credit">
-            <p>Photo taken in the <a href="https://en.wikipedia.org/wiki/Boundary_Waters_Canoe_Area_Wilderness" target="_blank">BWCA</a></p>
+            <p>Photo taken in the <a href="https://en.wikipedia.org/wiki/Boundary_Waters_Canoe_Area_Wilderness" target="_blank" rel="noopener noreferrer">BWCA</a></p>
         </div>
       </div>
     );
